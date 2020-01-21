@@ -1,0 +1,9 @@
+This is the readme.txt intended to set up the rpi and home router and fire TV.
+1. Get ip-v4 address of router from the picture of router.
+	It will tell how to login router with password on router.
+	eg. fritzbox 7530 xg , http://fritz.box, kenntwort badalig6366
+2. once login into fritzbox get ip-v4 ip as mentioned in Screenshot from 2020-01-21 20-36-01.png
+3. connect with Tuxbox with Laptop(search for wifi "Tuxbox") and connect with password fUyTXcyYp9mp87bV
+4. login ssh pi@192.168.226.1 and password tuxbox@123
+5. edit file using vi /etc/dhcpcd.conf, edit the ip-v4 address as we got in step 2.
+6. reboot the rpi with "sudo reboot"
